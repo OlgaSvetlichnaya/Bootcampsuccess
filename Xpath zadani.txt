@@ -1,0 +1,8 @@
+
+/bookstore/book[@category='web']/title
+
+/bookstore/book[price>35.00]
+
+/bookstore/book/author[text()='Kurt Cagle']
+
+count(/bookstore/book[year='2005'])
